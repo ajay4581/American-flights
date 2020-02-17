@@ -1,0 +1,92 @@
+{
+  "version": "1.1.0",
+  "artifactCoordinates": {
+    "groupId": "com.mycompany",
+    "artifactId": "apdev-flights-ws1",
+    "version": "1.0.0-SNAPSHOT",
+    "type": "jar",
+    "classifier": "mule-application"
+  },
+  "dependencies": [
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.modules",
+        "artifactId": "mule-apikit-module",
+        "version": "1.1.9",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/modules/mule-apikit-module/1.1.9/mule-apikit-module-1.1.9-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "c66beee7-52a3-4c79-a7be-5b56308f2850",
+        "artifactId": "mule-plugin-american-flights-api",
+        "version": "1.0.2",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/c66beee7-52a3-4c79-a7be-5b56308f2850/mule-plugin-american-flights-api/1.0.2/mule-plugin-american-flights-api-1.0.2-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-http-connector",
+        "version": "1.5.0",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-http-connector/1.5.0/mule-http-connector-1.5.0-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-sockets-connector",
+        "version": "1.1.4",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-sockets-connector/1.1.4/mule-sockets-connector-1.1.4-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-wsc-connector",
+        "version": "1.3.1",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-wsc-connector/1.3.1/mule-wsc-connector-1.3.1-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-db-connector",
+        "version": "1.5.4",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-db-connector/1.5.4/mule-db-connector-1.5.4-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "mysql",
+        "artifactId": "mysql-connector-java",
+        "version": "8.0.11",
+        "type": "jar"
+      },
+      "uri": "repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar",
+      "isShared": true
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "com.google.protobuf",
+        "artifactId": "protobuf-java",
+        "version": "2.6.0",
+        "type": "jar"
+      },
+      "uri": "repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar",
+      "isShared": true
+    }
+  ]
+}
